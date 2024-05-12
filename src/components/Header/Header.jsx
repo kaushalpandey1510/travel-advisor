@@ -17,14 +17,14 @@ const Header = () => {
                     <Typography variant='h6' className={classes.title}> 
                         Explore new places
                     </Typography>
-                    {/* <AutoComplete>
+                    {/* <AutoComplete> */}
                         <div className={classes.search}>
                             <div className={classes.searchIcon}>
                                 <SearchIcon />
                             </div>
                             <InputBase placeholder='search...' classes={{ root: classes.inputRoot, input: classes.inputInput}}/>
                         </div>
-                    </AutoComplete> */}
+                    {/* </AutoComplete> */}
                 </Box>
             </Toolbar>
         </AppBar>
